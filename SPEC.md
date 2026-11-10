@@ -2,7 +2,7 @@
 
 Client-side Fabric mod for Minecraft 26.3. Helpers for builders, roofers and bridgers. Sends no extra packet types; the server sees normal movement and normal block placements.
 
-Settings: `/foothold`, the settings key (unbound), or Mod Menu. Saved in `config/foothold.json`.
+Settings: `/foothold`, the settings key (unbound), or Mod Menu. Saved in `config/foothold/foothold.json`.
 
 ## Features
 

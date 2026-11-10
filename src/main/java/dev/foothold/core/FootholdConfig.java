@@ -10,7 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
-/** Everything Foothold saves in {@code config/foothold.json}. */
+/** Everything Foothold saves in {@code config/foothold/foothold.json}. */
 public final class FootholdConfig {
 	private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
 
