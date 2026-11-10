@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.foothold.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"EntityMixin",
+		"MinecraftMixin",
+		"PlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

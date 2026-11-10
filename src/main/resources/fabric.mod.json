@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "foothold",
+	"version": "${version}",
+	"name": "Foothold",
+	"description": "Client-side building helpers: Edge Lock (sneak-style ledge safety without sneaking), Stride Sync placement while holding right-click, and camera angle lock.",
+	"authors": [
+		"Skaffa",
+		"Claude (Anthropic)"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.foothold.client.FootholdClient"
+		],
+		"modmenu": [
+			"dev.foothold.client.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "foothold.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
