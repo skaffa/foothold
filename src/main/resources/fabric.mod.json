@@ -8,6 +8,11 @@
 		"Skaffa",
 		"Claude (Anthropic)"
 	],
+	"contact": {
+		"homepage": "https://github.com/skaffa/foothold",
+		"sources": "https://github.com/skaffa/foothold",
+		"issues": "https://github.com/skaffa/foothold/issues"
+	},
 	"license": "MIT",
 	"icon": "assets/foothold/icon.png",
 	"environment": "client",
