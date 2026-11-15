@@ -3,7 +3,7 @@
 Client-side building helpers for Minecraft (Fabric 26.3): stop at ledges without sneaking, place
 blocks without gaps while holding right-click, and lock your camera angle. Needs nothing on the server.
 
-![Foothold icon](media/icon-128.png)
+![Foothold icon](https://raw.githubusercontent.com/skaffa/foothold/1b9761ec71e9727c3ecbbf81a7fae173c4ec6444/media/icon-128.png)
 
 ## Use
 
@@ -32,8 +32,7 @@ Needs JDK 25.
 ```
 
 The logic in `src/main/java/dev/foothold/core` has no Minecraft imports and is tested with plain
-JUnit. See [SPEC.md](SPEC.md) for the design and the changes from the first draft.
-`python tools/make_icon.py` regenerates the icon.
+JUnit.
 
 ## License
 
